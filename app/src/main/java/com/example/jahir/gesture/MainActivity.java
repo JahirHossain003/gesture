@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         return true;
     }
 
+    // New changes
+
     @Override
     public boolean onDoubleTapEvent(MotionEvent e) {
         Message.setText("onDoubleTapEvent");
